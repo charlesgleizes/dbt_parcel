@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: parcel_data
+    tables:
+      - name: parcel
+        identifier: raw_cc_parcel
+        description: data per parcel
+      - name: parcel_product
+        identifier: raw_cc_parcel
+        description: data per each product inside a given parcel
